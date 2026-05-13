@@ -167,7 +167,7 @@ All scripts read from `ALL_RESULTS_COMBINED.csv` or specific upstream CSVs. Scri
 
 | Script | Description |
 |---|---|
-| `thesis_figures.py` | All figures used in the thesis (sections 3.2–3.11 and appendix D). Reads from `ALL_RESULTS_COMBINED.csv`. |
+| `thesis_figures.py` | All figures used in the thesis. Reads from `ALL_RESULTS_COMBINED.csv`. |
 | `fig_zone_overlay.py` | Five-panel injection zone overlay figure: individual channels, RGB composite, and zone-coloured composite per slice. |
 | `fig_enwrapment_comparison_40x.py` | Enwrapment comparison at 40×: full-slide overview with crop box, 40× crop with PV overlay coloured by enwrapment status, and enwrapment concept schematic. |
 | `fig_virus_proximal_40x.py` | Virus-proximal / virus-distal classification figure at 40×, with concentric distance-bin rings and a two-panel proximity schematic. |
@@ -231,6 +231,6 @@ Raw imaging data and per-cell quantification tables are not included due to file
 
 If you use or adapt these scripts, please cite the associated thesis:
 
-> [Mads Lønø]. *[Sulphation-Mediated PNN Conditioning by ADAMTS-15 and C6ST-1
+> [Mads Lønø]. *[Spatial and Cell-Local Mechanisms of Perineuronal Net Remodelling in Adult Visual Cortex
 ]*. Master's thesis, University of Oslo, 2026.
 
